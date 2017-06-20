@@ -1,11 +1,14 @@
 {
-  "name": "async-busboy",
+  "name": "busboy-file-parser",
   "version": "0.6.1",
   "description": "Promise based multipart form parser",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/m4nuC/async-busboy"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha specs.js --harmony --reporter spec --bail",
